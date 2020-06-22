@@ -1,0 +1,19 @@
+---
+title: "Structural inequality and policy in the UK"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[Insert statistics on inequality in the UK]
+
+Policy is needed to fix these problems. This blog investigates what the UK government is and isn't doing to tackle structural inequality in the UK.
+
+## Read blog posts by topic
+
+I read it so you don't have to! These posts are summaries of government and government-adjacent reports
+
+Did the report change anything? These posts analyse whether the policy recommendations in government reports published 5 or more years ago were actually implemented
+
+Inequality in numbers. These posts draw on publicly available datasets to investigate the ways in which structural inequality exists in the UK.

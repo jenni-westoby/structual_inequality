@@ -1,11 +1,5 @@
 ---
 title: "I read it so you don't have to! Beyond the data: Understanding the impact of COVID-19 on BAME groups"
-output: html_document
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 ---
 
 ```{r setup, include=FALSE}
@@ -54,7 +48,7 @@ The authors begin this section by noting that socioeconomic circumstances have a
 Following the literature review, there is a 22 page stakeholders review. Over 4000 people were involved in 17 sessions, on which this section of the report is based. The stakeholders expressed the view that health inequalities affecting BAME communities were exposed and worsened by the pandemic, rather than being directlycaused by the pandemic. Racism and discrimination against BAME individuals were cited as the root cause of poorer health and greater risk of COVID-19 exposure. The stakeholders gave a wide range of recommendations, which were listed at the end of the report and used to inform the seven key recommendations proposed by the report.
 
 ## My (personal) opinion on the report
-The report firmly states that structural racism is the main cause in the differences in death rates seen between different ethnic groups. The clear conclusion on the role of structural racism in COVID-19 outcomes is almost certainly why these 69 pages were removed from the original Public Health England report. Whilst I agree that structural racism probably is the main cause in the differences in death rates, I was a little disappointed that the report didn't collect more evidence to suport their conclusion.
+The report firmly states that structural racism is the main cause in the differences in death rates seen between different ethnic groups. The clear conclusion on the role of structural racism in COVID-19 outcomes is almost certainly why these 69 pages were removed from the original Public Health England report. Whilst I agree that structural racism probably is the main cause in the differences in death rates, I was a little disappointed that the report authors didn't collect more evidence to suport their conclusion.
 
 I am a scientist by training, and was a little surprised and alarmed at how unscientific the approach taken to making the report's seven key recommendations was. It seems that stakeholder reviews were used to inform the seven key report recommendations.  Almost a third of the report was dedicated to summarising the stakeholder reviews, without really explaining who the stakeholders were, how they were chosen or why they should be considered to be an authority on improving BAME COVID-19 outcomes. In addition, no information was provided on how the stakeholder sessions were run (eg. what questions were the stakeholders asked? Was it a Q&A style session or was there an open discussion? How were the quotes from stakeholders used in the report selected?). It is possible that the stakeholder reviews held such a prominent position in the report in part due to the lack of high quality scientific data found in the literature review. 
 

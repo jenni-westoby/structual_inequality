@@ -1,0 +1,12 @@
+name: "stuctual_inequality"
+output_dir: "docs"
+navbar:
+  title: "Structural inequality and policy in the UK"
+  left:
+  - text: "Home"
+    href: index.html
+  - text: "I read it so you don't have to!"
+    href: PHE_report.html
+output:
+  html_document:
+    theme: cosmo
