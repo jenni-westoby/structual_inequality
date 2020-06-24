@@ -6,14 +6,20 @@ title: "Structural inequality and policy in the UK"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-[Insert statistics on inequality in the UK]
+##### Half of the UK's wealth [is held by just 12% of households](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/totalwealthingreatbritain/april2016tomarch2018). Men born in the most deprived areas of the UK have a life expectancy that is [9.4 years shorter](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthinequalities/bulletins/healthstatelifeexpectanciesbyindexofmultipledeprivationimd/2015to2017#life-expectancy-and-healthy-life-expectancy-in-england-by-the-index-of-multiple-deprivation-2015-imd15-2015-to-2017) than men born in the least deprived areas. For women, this gap is 7.4 years. Structual racism very much exists in the UK. 47% of Pakistani children, 41% of Bangladeshi children and 30% of Black children live in low income households, [compared with 17% of White British children](https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/compendium/economicreview/february2020/childpovertyandeducationoutcomesbyethnicity). [The COVID-19 pandemic has exposed the scale and consequences of the structural inequality present in UK society today](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/891116/disparities_review.pdf). The COVID-19 diagnosis rate was 1.9 times higher for men and 1.7 times higher for women living in the most deprived areas of the UK relative to those living in the least deprived areas. Individuals from BAME ethnic groups have significantly higher COVID-19 death rates, with Black men 3.9 times more likely to die from COVID-19 relative to White men.
 
-Policy is needed to fix these problems. This blog investigates what the UK government is and isn't doing to tackle structural inequality in the UK.
+##### Policy is needed to fix these problems. This blog investigates what the UK government is and isn't doing to tackle structural inequality in the UK.
 
 ## Read blog posts by topic
 
-I read it so you don't have to! These posts are summaries of government and government-adjacent reports
+### I read it so you don't have to! These posts are summaries of government and government-adjacent reports
 
-Did the report change anything? These posts analyse whether the policy recommendations in government reports published 5 or more years ago were actually implemented
+* [Beyond the data: Understanding the impact of COVID-19 on BAME groups](PHE_report.html)
 
-Inequality in numbers. These posts draw on publicly available datasets to investigate the ways in which structural inequality exists in the UK.
+### Did the report change anything? These posts analyse whether the policy recommendations in government reports published 5 or more years ago were actually implemented
+
+Coming soon.
+
+### Inequality in numbers. These posts draw on publicly available datasets to investigate the ways in which structural inequality exists in the UK.
+
+Coming soon.

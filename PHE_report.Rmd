@@ -6,7 +6,7 @@ title: "I read it so you don't have to! Beyond the data: Understanding the impac
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-'Beyond the data: Understanding the impact of COVID-19 on BAME groups' is the controversial Public Health England report investigating how COVID-19 has affected BAME groups. It has been reported that this 69 page report was originally meant to be a part of the earlier published 'insert' report, but was removed before the report was published due to concerns that it would add fuel to Black Lives Matter protests. If you get a chance to read 'Beyond the data: Understanding the impact of COVID-19 on BAME groups' in full I would recommend doing so. It is important to see what your government does not want you to know. If you don't have time to read the full report, I give a summary below.
+[*'Beyond the data: Understanding the impact of COVID-19 on BAME groups'*](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/892376/COVID_stakeholder_engagement_synthesis_beyond_the_data.pdf) is the controversial Public Health England report investigating how COVID-19 has affected BAME groups. [It has been reported](https://www.theguardian.com/world/2020/jun/13/bma-demands-answers-over-missing-bame-pages-of-covid-19-report) that this 69 page report was originally meant to be a part of the earlier published [*'Disparities in the risk and outcomes of COVID-19'*](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/891116/disparities_review.pdf) report, [but was removed](https://www.theguardian.com/world/2020/jun/02/boris-johnson-urged-to-publish-bame-covid-19-review-immediately) before the report was published due to concerns that it would add fuel to Black Lives Matter protests. If you get a chance to read 'Beyond the data: Understanding the impact of COVID-19 on BAME groups' in full I would recommend doing so. It is important to see what the UK government does not want you to know. If you don't have time to read the full report, I give a summary below.
 
 ## What if I don't have time to read your summary?
 
@@ -15,6 +15,7 @@ TLDR; Here is a summary of the summary. The report concludes that structural rac
 ## The full summary
 
 The report begins with an executive summary and makes seven recommendations, summarised below:
+
 1. Make it mandatory to record ethnicity data as part of routine NHS and social care procedures, and also on death certificates.
 2. Engage with BAME communities to research the socioeconomic determinants of COVID-19 risk.
 3. Improve the access, experiences and outcomes of NHS, local government and care services by BAME communities.
@@ -25,29 +26,30 @@ The report begins with an executive summary and makes seven recommendations, sum
 
 The next section of the report is a literature review. The authors review existing COVID-19 publications and data and try to answer four questions. I go through each question and the answer given by the report below.
 
-1. Are individuals in BAME groups more likely to be tested for and/or subsequently diagnosed with COVID-19 infection?
+#### 1. Are individuals in BAME groups more likely to be tested for and/or subsequently diagnosed with COVID-19 infection?
 
 This is to my mind one of the most important questions of the report. If we had reliable, unbiased COVID-19 testing data in which ethnicity was recorded, we could concretely say whether the probability of contracting COVID-19 differed by ethnicity. Unfortunately, a large scale randomised COVID-19 testing trial in which participants recorded their ethnicity has not been carried out. The testing data that does exist supports the hypothesis that positive test results are higher than expected for BAME communities, but is not randomised and in some cases comes from studies with a small number of participants. The report concludes that due to a lack of high quality data, conclusions on the relative likelihood of BAME individuals testing positive for COVID-19 can't be drawn.
 
-2. Are individuals in BAME groups more likely to develop severe clinical presentations of COVID-19 infection?
+#### 2. Are individuals in BAME groups more likely to develop severe clinical presentations of COVID-19 infection?
 
 The literature on whether BAME individuals are more likely to become severely ill and/or be admitted to ICU is mixed. Some studies have found that the risk of severe illness can differ dramatically by ethnicity, whilst others have found that there is no difference in the risk of severe illness or ICU admission. It is worth noting that many of these studies came from hospital trusts, and therefore the number of patients being studied is often small and may be squewed by local population demographics. The report notes that the rates of cardiovascular disease and diabetes differ by ethnicity but doesn't draw any direct conclusions from this. The report concludes that more research is needed to determine whether BAME individuals are more likely to become severely ill from COVID-19.
 
-3. Is infection with COVID-19 more likely to lead to mortality within BAME groups?
+#### 3. Is infection with COVID-19 more likely to lead to mortality within BAME groups?
 
 Here, the data is a bit clearer. Data from hospital trusts, hospital mortality data and the Office For National Statistics death data all find higher COVID-19 death rates in BAME ethnic groups relative to those of white British ethnicity. The report concludes that the evidence available supports excess mortality in BAME populations.
 
-4. What are the social and structural determinants of health that may impact disparities in COVID-19 incidence, treatment, morbidity and mortality in BAME groups?
+#### 4. What are the social and structural determinants of health that may impact disparities in COVID-19 incidence, treatment, morbidity and mortality in BAME groups?
 
 The authors begin this section by noting that socioeconomic circumstances have an impact on health. Factors proposed that could be relevant to the COVID-19 pandemic include: 
-- Housing, in particular overcrowding and when multiple generations live under the same roof.
-- The financial impact of COVID-19 might differ between different ethnic groups.
-- BAME individuals are more likely to have jobs with a higher risk of COVID-19 exposure, such as health and social care, retail workers, cleaners and public transport workers.
-- BAME individuals may have poorer access to healthcare services and negative previous experiences, making individuals less likely to seek care when needed.
+
+* Housing, in particular overcrowding and when multiple generations live under the same roof.
+* The financial impact of COVID-19 might differ between different ethnic groups.
+* BAME individuals are more likely to have jobs with a higher risk of COVID-19 exposure, such as health and social care, retail workers, cleaners and public transport workers.
+* BAME individuals may have poorer access to healthcare services and negative previous experiences, making individuals less likely to seek care when needed.
 
 Following the literature review, there is a 22 page stakeholders review. Over 4000 people were involved in 17 sessions, on which this section of the report is based. The stakeholders expressed the view that health inequalities affecting BAME communities were exposed and worsened by the pandemic, rather than being directlycaused by the pandemic. Racism and discrimination against BAME individuals were cited as the root cause of poorer health and greater risk of COVID-19 exposure. The stakeholders gave a wide range of recommendations, which were listed at the end of the report and used to inform the seven key recommendations proposed by the report.
 
-## My (personal) opinion on the report
+## My personal opinion on the report
 The report firmly states that structural racism is the main cause in the differences in death rates seen between different ethnic groups. The clear conclusion on the role of structural racism in COVID-19 outcomes is almost certainly why these 69 pages were removed from the original Public Health England report. Whilst I agree that structural racism probably is the main cause in the differences in death rates, I was a little disappointed that the report authors didn't collect more evidence to suport their conclusion.
 
 I am a scientist by training, and was a little surprised and alarmed at how unscientific the approach taken to making the report's seven key recommendations was. It seems that stakeholder reviews were used to inform the seven key report recommendations.  Almost a third of the report was dedicated to summarising the stakeholder reviews, without really explaining who the stakeholders were, how they were chosen or why they should be considered to be an authority on improving BAME COVID-19 outcomes. In addition, no information was provided on how the stakeholder sessions were run (eg. what questions were the stakeholders asked? Was it a Q&A style session or was there an open discussion? How were the quotes from stakeholders used in the report selected?). It is possible that the stakeholder reviews held such a prominent position in the report in part due to the lack of high quality scientific data found in the literature review. 
