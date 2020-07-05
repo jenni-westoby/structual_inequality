@@ -27,7 +27,7 @@ p <- ggplot(data = df, aes(x = reorder(Reason, Percentage), y = Percentage)) + g
 print(p)
 ```
 
-##### **Figure 1:** The YouGov survey asked people who had experienced food insecurity what the reason(s) for their food insecurity were. The barplot above shows the percentage breakdown of their responses.
+#### **Figure 1:** The YouGov survey asked people who had experienced food insecurity what the reason(s) for their food insecurity were. The barplot above shows the percentage breakdown of their responses.
 
  
 
@@ -61,7 +61,7 @@ p <- ggplot(data = df, aes(x = Time, y = Percentage, fill = Source)) + geom_bar(
 print(p)
 ```
 
-##### **Figure 2: The estimated percentage of adults experiencing food insecurity for financial reasons during the COVID-19 lockdown and the estimated percentage of adults experiencing food insecurity for any reason in 2019.** Note that these estimates come from three different sources, each of which used a different method to estimate the percentage of adults experiencing food insecurity. Also note that the percentage of food insecure adults for a 30 day period in 2019 are food insecure for any reason, whereas the percentage of food insecure adults in the 2020 timepoints are adults who are food insecure specifically for financial reasons. Consequently, these estimates are not directly comparable, and can only give a rough indication of how food insecurity might be changing over time.
+#### **Figure 2: The estimated percentage of adults experiencing food insecurity for financial reasons during the COVID-19 lockdown and the estimated percentage of adults experiencing food insecurity for any reason in 2019.** Note that these estimates come from three different sources, each of which used a different method to estimate the percentage of adults experiencing food insecurity. Also note that the percentage of food insecure adults for a 30 day period in 2019 are food insecure for any reason, whereas the percentage of food insecure adults in the 2020 timepoints are adults who are food insecure specifically for financial reasons. Consequently, these estimates are not directly comparable, and can only give a rough indication of how food insecurity might be changing over time.
 
 Socioeconomic factors played a big role in the likelihood of skipping or reducing the size of meals. Interestingly, the likelihood of skipping or reducing the size of meals differed greatly by age, with 33% of 16-24 year olds skipping or cutting down meal sizes in May compared with 4% of 55-75 year olds. This should give some pause for thought. For all of the joking about avocado toast, the fact remains that an estimated 1 in 3 British adults aged 16-25 went without food due to a lack of money in April and May this year.
 
@@ -91,7 +91,7 @@ p <- ggplot(data = df, aes(x = Age, y = Percentage, fill = Month)) + geom_bar(st
 print(p)
 ``` 
 
-##### **Figure 3: Barplot of the percentage of adults estimated to have reduced the size of or skipped meals for financial reasons in April and May, broken down by age.** Data taken from [Food Standards Agency report](https://www.food.gov.uk/research/research-projects/the-covid-19-consumer-tracker).
+#### **Figure 3: Barplot of the percentage of adults estimated to have reduced the size of or skipped meals for financial reasons in April and May, broken down by age.** Data taken from [Food Standards Agency report](https://www.food.gov.uk/research/research-projects/the-covid-19-consumer-tracker).
  
 
 Perhaps even more concerningly, households with children were significantly more likely to report cutting meal sizes or skipping meals, with about 1 in 4 households reporting this. As the survey only asked adults about their eating habits, we can not tell from this data to what extent parents who were reducing meal sizes or going hungry were able to protect their children from doing the same. In other words, we can’t tell from this data how many children went hungry in April and May because their parents could not afford to buy them food.
@@ -111,7 +111,7 @@ p <- ggplot(data = df, aes(x = Status, y = Percentage, fill = Month)) + geom_bar
 print(p)
 ```
 
-##### **Figure 4: Comparison of the percentage of households with and without children which reported reducing the size of or skipping meals for financial reasons in April and May.** Data taken from [Food Standards Agency report](https://www.food.gov.uk/research/research-projects/the-covid-19-consumer-tracker).
+#### **Figure 4: Comparison of the percentage of households with and without children which reported reducing the size of or skipping meals for financial reasons in April and May.** Data taken from [Food Standards Agency report](https://www.food.gov.uk/research/research-projects/the-covid-19-consumer-tracker).
 
  
 
