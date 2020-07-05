@@ -22,4 +22,4 @@ Coming soon.
 
 ### Inequality in numbers. These posts draw on publicly available datasets to investigate the ways in which structural inequality exists in the UK.
 
-Coming soon.
+* [Hunger and Covid-19](Hunger_and_covid.html)
