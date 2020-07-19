@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>COVID-19 and Schools</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Structural inequality and policy in the UK</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="PHE_report.html">I read it so you don't have to!</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Inequality in Numbers
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Hunger_and_covid.html">Hunger and COVID-19</a>
+    </li>
+    <li>
+      <a href="covid19_and_schools.html">COVID-19 and Schools</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">COVID-19 and Schools</h1>
+
+</div>
+
+
+<p><br/><br/></p>
+<p><strong>My phone rang. It was a family member. I wondered why they were calling late on a Sunday night, when I had seen them the previous day.</strong></p>
+<p><strong>‘Are you OK?’, I asked</strong></p>
+<p><strong>‘Yeah… I’m calling because my coronavirus test just came back positive.’</strong></p>
+<p><strong>My heart sank. This family member works at a school. The only place they could have realistically contracted COVID-19 was at the school.</strong></p>
+<p>The subject of whether schools should or should not be re-opened has become increasingly polarized and political. Days after my partner and I began our 14 day self isolation period following contact with my infected family member, a government advert came on the radio in which a ‘teacher’ explained that it was completely safe for children to return to school. This seemed a little at odds with my personal situation.</p>
+<p>The main argument used by those arguing that it would be safe for children to return to schools is that children are not affected by the virus to the same degree that adults are. This does appear to be true. Across the world, children, especially young children, appear to be less likely that adults to test positive for COVID-19. <a href="https://ophrp.org/journal/view.php?doi=10.24171/j.phrp.2020.11.2.05">In the Republic of Korea, children aged 0-9 made up just 1% of the first 7755 positive COVID-19 tests</a>, despite accounting for a much larger proportion of the population. <a href="https://www.medrxiv.org/content/10.1101/2020.04.17.20053157v1">In the Veneto region in Italy, the entire population was tested for COVID-19 twice</a>. None of the 234 children aged 0-10 in Veneto returned positive test results, despite several children living with infected family members. <a href="https://www.nejm.org/doi/10.1056/NEJMoa2006100">In Iceland, no child aged 0-10 tested positive for COVID-19 in a randomized test of the general population</a>. Amongst children who do test positive for COVID-19, the outcome tends to be better compared to adults who catch COVID-19. In a systematic review of 18 studies of 1065 children with confirmed COVID-19 infections, <a href="https://jamanetwork.com/journals/jamapediatrics/fullarticle/2765169">children were mostly reported to experience mild symptoms and no children under the age of 10 died</a>.</p>
+<p>So, it does appear to be true that children are less at risk from COVID-19 infections than adults. What is less clear is the extent to which children are able to catch and spread COVID-19. Whilst the statistics above are suggestive that children may be less likely to catch COVID-19 than adults, there are other explanations for the low rates of COVID-19 detection in children. Maybe children do catch COVID-19 at similar rates to adults, but are less likely to experience symptoms, so are less likely to be tested. Maybe children who catch COVID-19 experience milder symptoms and so have a shorter time period in which virus DNA could be detected in their nasal passages with a COVID-19 test. The degree to which children are able to spread COVID-19 to other children and adults remains unclear. In addition, a fact that is often overlooked when considering whether children can safely return to schools is that schools do not only contain children. Schools also contain teachers, cleaners, admin staff, kitchen staff and many other adults who are essential for the safe running of the school. Even if we assume children can’t catch or spread the virus, we know that the adults in the school can.</p>
+<p>One way of trying to assess whether or not it would be safe to reopen schools is to look internationally at countries that have re-opened schools, and ask what effect, if any, there has been on the spread of COVID-19. Here the evidence is extremely mixed. A recent report found that whilst in some countries, such as Denmark, the re-opening of schools appears to have had no effect on transmission rates, in other countries there was evidence of increased transmission. The most dramatic example of this is Israel, where the re-opening of schools has been linked to a second wave of infections.</p>
+<p><br/><br/></p>
+<table style="width:47%;">
+<colgroup>
+<col width="12%" />
+<col width="34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Country</th>
+<th>Impact on transmission</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>France</td>
+<td>Unknown</td>
+</tr>
+<tr class="even">
+<td>Greece</td>
+<td>Unknown</td>
+</tr>
+<tr class="odd">
+<td>Japan</td>
+<td>Unknown</td>
+</tr>
+<tr class="even">
+<td>South Korea</td>
+<td>Unknown</td>
+</tr>
+<tr class="odd">
+<td>New Zealand</td>
+<td>Unknown</td>
+</tr>
+<tr class="even">
+<td>Switzerland</td>
+<td>Unknown</td>
+</tr>
+<tr class="odd">
+<td>Taiwan</td>
+<td>Unknown</td>
+</tr>
+<tr class="even">
+<td>Vietnam</td>
+<td>Unknown</td>
+</tr>
+<tr class="odd">
+<td>Denmark</td>
+<td>No significant effect</td>
+</tr>
+<tr class="even">
+<td>Norway</td>
+<td>No significant effect</td>
+</tr>
+<tr class="odd">
+<td>Germany</td>
+<td>Increased transmission amongst students</td>
+</tr>
+<tr class="even">
+<td>Israel</td>
+<td>Outbreaks in multiple schools</td>
+</tr>
+<tr class="odd">
+<td>Sweden</td>
+<td>Relatively high rate of COVID-19 infections in children, suggesting transmission in schools.</td>
+</tr>
+</tbody>
+</table>
+<div id="table-adapted-from-summary-of-school-re-opening-models-and-implementation-approaches-during-the-covid-19-pandemic-report" class="section level5">
+<h5>Table adapted from <a href="https://globalhealth.washington.edu/sites/default/files/COVID-19%20Schools%20Summary%20%282%29.pdf?mkt_tok=eyJpIjoiTkRreE5XWXlORFF3TXpNeCIsInQiOiJIbVNQTTVySEo0Vzk1cHVBZVVqWnFGVmR1UEJxRGdpd01mTXg4OGw3Mk5nTnpmaUoyMGt2UXIwWVZBOE5GVjIybHA5aStrbzJ3MUxsanoxamZibmlocmpSbXZyVFVoV0VHYU1aTGx0RnpsMXlmOEtXSVJqaDJsZ0RJU1BQcVZjZSJ9">‘Summary of School Re-Opening Models and Implementation Approaches During the COVID 19 Pandemic’ report</a></h5>
+<p><br/><br/></p>
+<p>So, the evidence for whether or not schools can safely reopen in September is mixed. However, there is strong evidence that school closures did not have an equal impact on each child in our society. As many schools move their learning online, children in households without access to internet or devices become increasingly disadvantaged. <a href="https://teachertapp.co.uk/learning-or-not-from-afar-the-first-week-of-school-closures/">In the most deprived* schools, 15% of teachers reported that one third or more of their pupils would not have access to a computer or device that they could use for learning. In contrast, only 3% of teachers at private schools and 2% of teachers at the most affluent* state schools reported over a third of their pupils would not have access to a suitable device.</a> There was also a substantial difference in the number of hours of school work teachers suspected their Year 8 pupils were doing at home. <a href="https://teachertapp.co.uk/learning-or-not-from-afar-the-first-week-of-school-closures/">In the most affluent* state schools, 14% of teachers thought their pupils were doing less than an hour of school work per day, rising to 43% of teachers at the most deprived schools.</a></p>
+<p>Where does this leave us? It is very unclear whether we can safely open schools in September without risking new clusters of infection. On the other hand, leaving schools closed worsens the inequality between the richest and poorest children in British society, and potentially damages the education of an entire generation of children.</p>
+<p>It seems like there are no good options left. This is probably true, but to the two bad options of re-opening schools when the risk of a COVID-19 outbreak is high and keeping them closed I would like to add a third less than ideal option. If the UK (and more specifically, England and Wales) were to re-enter complete lockdown, COVID-19 could be eradicated entirely from the UK. Once there were no new cases per day, strict border controls could be enforced to prevent COVID-19 re-entering, and the life across the UK could return to normal. Not only could schools safely re-open, but so could the rest of the economy. Whilst a second lockdown would undoubtedly be painful, when it ended life could truly return to a safe normality. Huge structural inequalities would continue to exist in the UK, but at least they would not continue to be dramatically worsened by the COVID-19 crisis.</p>
+<p><br/><br/> <br/><br/></p>
+<p>*In this survey, whether a schools was considered to be in an affluent or deprived area was determined by the proportion of children claiming free school meals.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

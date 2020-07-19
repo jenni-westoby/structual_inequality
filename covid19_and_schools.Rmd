@@ -1,0 +1,79 @@
+---
+title: "COVID-19 and Schools"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br/><br/>
+
+**My phone rang. It was a family member. I wondered why they were calling late on a Sunday night, when I had seen them the previous day.**
+
+ 
+
+**‘Are you OK?’, I asked**
+
+**‘Yeah… I’m calling because my coronavirus test just came back positive.’**
+
+ 
+
+**My heart sank. This family member works at a school. The only place they could have realistically contracted COVID-19 was at the school.**
+
+ 
+
+The subject of whether schools should or should not be re-opened has become increasingly polarized and political. Days after my partner and I began our 14 day self isolation period following contact with my infected family member, a government advert came on the radio in which a ‘teacher’ explained that it was completely safe for children to return to school. This seemed a little at odds with my personal situation.
+
+ 
+
+The main argument used by those arguing that it would be safe for children to return to schools is that children are not affected by the virus to the same degree that adults are.  This does appear to be true. Across the world, children, especially young children, appear to be less likely that adults to test positive for COVID-19. [In the Republic of Korea, children aged 0-9 made up just 1% of the first 7755 positive COVID-19 tests](https://ophrp.org/journal/view.php?doi=10.24171/j.phrp.2020.11.2.05), despite accounting for a much larger proportion of the population. [In the Veneto region in Italy, the entire population was tested for COVID-19 twice](https://www.medrxiv.org/content/10.1101/2020.04.17.20053157v1). None of the 234 children aged 0-10 in Veneto returned positive test results, despite several children living with infected family members. [In Iceland, no child aged 0-10 tested positive for COVID-19 in a randomized test of the general population](https://www.nejm.org/doi/10.1056/NEJMoa2006100). Amongst children who do test positive for COVID-19, the outcome tends to be better compared to adults who catch COVID-19. In a systematic review of 18 studies of 1065 children with confirmed COVID-19 infections, [children were mostly reported to experience mild symptoms and no children under the age of 10 died](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2765169).
+
+ 
+
+So, it does appear to be true that children are less at risk from COVID-19 infections than adults. What is less clear is the extent to which children are able to catch and spread COVID-19. Whilst the statistics above are suggestive that children may be less likely to catch COVID-19 than adults, there are other explanations for the low rates of COVID-19 detection in children. Maybe children do catch COVID-19 at similar rates to adults, but are less likely to experience symptoms, so are less likely to be tested. Maybe children who catch COVID-19 experience milder symptoms and so have a shorter time period in which virus DNA could be detected in their nasal passages with a COVID-19 test. The degree to which children are able to spread COVID-19 to other children and adults remains unclear. In addition, a fact that is often overlooked when considering whether children can safely return to schools is that schools do not only contain children. Schools also contain teachers, cleaners, admin staff, kitchen staff and many other adults who are essential for the safe running of the school. Even if we assume children can’t catch or spread the virus, we know that the adults in the school can.
+
+ 
+
+One way of trying to assess whether or not it would be safe to reopen schools is to look internationally at countries that have re-opened schools, and ask what effect, if any, there has been on the spread of COVID-19. Here the evidence is extremely mixed. A recent report found that whilst in some countries, such as Denmark, the re-opening of schools appears to have had no effect on transmission rates, in other countries there was evidence of increased transmission. The most dramatic example of this is Israel, where the re-opening of schools has been linked to a second wave of infections.
+
+<br/><br/>
+
+
+
+
+|Country | Impact on transmission |
+|--------|------------------------|
+|France |Unknown|
+|Greece |Unknown|
+|Japan |Unknown|
+|South Korea |Unknown|
+|New Zealand |Unknown|
+|Switzerland |Unknown|
+|Taiwan |Unknown|
+|Vietnam|Unknown|
+|Denmark|No significant effect|
+|Norway|No significant effect|
+|Germany|Increased transmission amongst students|
+|Israel|Outbreaks in multiple schools|
+|Sweden|Relatively high rate of COVID-19 infections in children, suggesting transmission in schools.|
+
+##### Table adapted from [‘Summary of School Re-Opening Models and Implementation Approaches During the COVID 19 Pandemic’ report](https://globalhealth.washington.edu/sites/default/files/COVID-19%20Schools%20Summary%20%282%29.pdf?mkt_tok=eyJpIjoiTkRreE5XWXlORFF3TXpNeCIsInQiOiJIbVNQTTVySEo0Vzk1cHVBZVVqWnFGVmR1UEJxRGdpd01mTXg4OGw3Mk5nTnpmaUoyMGt2UXIwWVZBOE5GVjIybHA5aStrbzJ3MUxsanoxamZibmlocmpSbXZyVFVoV0VHYU1aTGx0RnpsMXlmOEtXSVJqaDJsZ0RJU1BQcVZjZSJ9)
+
+<br/><br/>
+ 
+
+So, the evidence for whether or not schools can safely reopen in September is mixed. However, there is strong evidence that school closures did not have an equal impact on each child in our society. As many schools move their learning online, children in households without access to internet or devices become increasingly disadvantaged. [In the most deprived* schools, 15% of teachers reported that one third or more of their pupils would not have access to a computer or device that they could use for learning. In contrast, only 3% of teachers at private schools and 2% of teachers at the most affluent* state schools reported over a third of their pupils would not have access to a suitable device.](https://teachertapp.co.uk/learning-or-not-from-afar-the-first-week-of-school-closures/) There was also a substantial difference in the number of hours of school work teachers suspected their Year 8 pupils were doing at home. [In the most affluent* state schools, 14% of teachers thought their pupils were doing less than an hour of school work per day, rising to 43% of teachers at the most deprived schools.](https://teachertapp.co.uk/learning-or-not-from-afar-the-first-week-of-school-closures/)
+
+ 
+
+Where does this leave us? It is very unclear whether we can safely open schools in September without risking new clusters of infection. On the other hand, leaving schools closed worsens the inequality between the richest and poorest children in British society, and potentially damages the education of an entire generation of children.
+
+ 
+
+It seems like there are no good options left. This is probably true, but to the two bad options of re-opening schools when the risk of a COVID-19 outbreak is high and keeping them closed I would like to add a third less than ideal option. If the UK (and more specifically, England and Wales) were to re-enter complete lockdown, COVID-19 could be eradicated entirely from the UK. Once there were no new cases per day, strict border controls could be enforced to prevent COVID-19 re-entering, and the life across the UK could return to normal. Not only could schools safely re-open, but so could the rest of the economy. Whilst a second lockdown would undoubtedly be painful, when it ended life could truly return to a safe normality. Huge structural inequalities would continue to exist in the UK, but at least they would not continue to be dramatically worsened by the COVID-19 crisis.
+
+<br/><br/>
+<br/><br/>
+
+*In this survey, whether a schools was considered to be in an affluent or deprived area was determined by the proportion of children claiming free school meals.
